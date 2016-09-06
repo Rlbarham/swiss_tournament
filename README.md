@@ -25,31 +25,31 @@ Tournament.py contains the below functions. Note that tournament_test.py provide
 Adds a player to the tournament by putting an entry in the database. The database should assign an ID number to the player. Different players may have the same names but will receive different IDs.
 
 
-####### countPlayers()
+###### countPlayers()
 
 Returns the number of currently registered players.
 
 
-####### deletePlayers()
+###### deletePlayers()
 
 Clear out all the player records from the database.
 
 
-####### reportMatch(winner, loser)
+###### reportMatch(winner, loser)
 
 Stores the outcome of a single match between two players in the database. The arguments should match the IDs of the 'winner' and 'loser'.
 
 
-####### deleteMatches()
+###### deleteMatches()
 
 Clears out all the match records from the database.
 
 
-####### playerStandings()
+###### playerStandings()
 
 Returns a list of (id, name, wins, matches) for each player, sorted by the number of wins each player has.
 
 
-####### swissPairings()
+###### swissPairings()
 
 Given the existing set of registered players and the matches they have played, generates and returns a list of pairings according to the Swiss system. Each pairing is a tuple (id1, name1, id2, name2), giving the ID and name of the paired players. For instance, if there are eight registered players, this function should return four pairings. This function will typically be used after a tournament round, in order to re-allocate players for the next set of matches. 
