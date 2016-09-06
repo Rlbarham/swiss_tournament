@@ -20,7 +20,7 @@ Second, run functions as desired from tournament.py, which connects to the datab
 
 Tournament.py contains the below functions. Note that tournament_test.py provides a few test cases for these functions, illustrating how they may be used in practice.
 
-####### registerPlayer(name)
+###### registerPlayer(name)
 
 Adds a player to the tournament by putting an entry in the database. The database should assign an ID number to the player. Different players may have the same names but will receive different IDs.
 
